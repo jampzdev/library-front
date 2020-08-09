@@ -68,6 +68,7 @@ var ListUserComponent = /** @class */ (function (_super) {
         var test_global_function = this.testGlobalFunction();
         console.log("global var test: ", this.CURRENT_DATE);
         console.log("global func test: ", test_global_function);
+        this.test();
     };
     /**
      * Author:          [Whole name of dev] ex: Catherine D. Aglipay
@@ -76,6 +77,13 @@ var ListUserComponent = /** @class */ (function (_super) {
      */
     ListUserComponent.prototype.getUserList = function () {
         console.log("test: ", this.user_list);
+    };
+    ListUserComponent.prototype.test = function () {
+        this.API.post("/userlist")
+            .subscribe(function (data) {
+        }, function (error) {
+            console.log(error);
+        });
     };
     ListUserComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
