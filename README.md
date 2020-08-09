@@ -30,4 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 INSTALLATION
 1. git clone via HTTP/SSH
 2. Install Angular CLI
-3. Install all the packages
+3. Install all the packages via npm
