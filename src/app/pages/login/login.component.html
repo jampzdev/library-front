@@ -3,6 +3,7 @@
     <!-- Login -->
     <div *ngIf="loginStats.login" class="login__block active">
         <div class="login-custom-header">
+            <h1>Library System v1.0</h1>
             <!-- <img src="../../../assets/img/ama-logo.png" alt="" height="60%" width="60%"> -->
         </div>
 
@@ -23,9 +24,6 @@
         <div class="login-custom-footer">
             <button type="button" class="btn btn-ama-custom-red btn-shadow m-b-10" (click)="auth()">LOGIN</button>
             <button type="button" class="btn btn-primary btn-shadow m-b-10" (click)="toggleBlock('login', 'signUp')">SIGN UP AS BORROWER</button>
-
-            <br>
-            <a (click)="toggleBlock('login', 'forgotPassword')">Forgot Password?</a>
         </div>
     </div>
 

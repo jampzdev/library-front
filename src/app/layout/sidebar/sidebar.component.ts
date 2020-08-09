@@ -58,10 +58,6 @@ export class SidebarComponent implements OnInit {
                         //     route: '/user/maintenance/role'
                         // },
                         {
-                            title: 'User',
-                            route: '/user/maintenance/user'
-                        },
-                        {
                             title: 'Books',
                             route: '/user/maintenance/books'
                         },

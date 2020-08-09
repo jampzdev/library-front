@@ -20,7 +20,7 @@
   width: $sidebar-width;
   position: fixed;
   left: 0;
-  padding: $header-height 2rem 0.5rem 2rem;
+  padding: 0px;
   height: 100%;
   overflow: hidden;
   z-index: $sidebar-z-index;
@@ -110,4 +110,13 @@
       top: 1.1rem;
     }
   }
+
+
+}
+
+ng-scrollbar{
+  -webkit-box-shadow: 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px rgba(0,0,0,0.75);
+  box-shadow: 20px rgba(0,0,0,0.75) !important;
+  border-right: 1px solid #bbb;
 }
