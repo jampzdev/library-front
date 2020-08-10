@@ -13,7 +13,7 @@ import { catchError } from 'rxjs/operators';
 // const API_URL = 'http://127.0.0.1:3000';
 
 // const API_URL = 'http://api.jampzdev.tk';
-const API_URL = 'http://13.228.34.190/api;'
+const API_URL = 'http://13.228.34.190/api'
 
 
 @Injectable({
