@@ -10,8 +10,10 @@ import { catchError } from 'rxjs/operators';
 
 // Staging
 // const API_URL = 'https://33elxb9kg7.execute-api.ap-southeast-1.amazonaws.com/QA';
-const API_URL = 'http://127.0.0.1:3000';
+// const API_URL = 'http://127.0.0.1:3000';
+
 // const API_URL = 'http://api.jampzdev.tk';
+const API_URL = 'http://13.228.34.190/api;'
 
 
 @Injectable({
